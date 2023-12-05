@@ -121,7 +121,7 @@ border: 1px solid #FD9222;
 .ing-visual{
     position: absolute;
     transform: translateY(100%);
-    transition: transform 0.50s cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: transform 0.50s cubic-bezier(0.4, 0, 0.2, 1); */
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
@@ -129,7 +129,7 @@ border: 1px solid #FD9222;
     left: 0;
     opacity: 0;
  /* transition: all 0.5s ease-in-out; */
-/* transition-duration: 500ms, 2s; переход с белого на красный цв */
+transition-duration: 350ms; /* переход с белого на красный цв */
 /* transition-property: transform, background-color; какие вар-ты при кликании будет воспроизводить в hover */
 /* transition-timing-function: linear; */
 
@@ -151,8 +151,8 @@ border: 1px solid #FD9222;
 .ing-sweet-choco:hover .ing-visual
 {
     opacity: 1;
-    /* transform: translateY(0); */
     transform: translateY(0);
+    /* transform: translateY(0); */
     /* background-color: red ; */
     /* transform: scale(0.6); */
 
